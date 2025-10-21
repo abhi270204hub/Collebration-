@@ -1,0 +1,28 @@
+instagram-collab-platform/
+│
+├── backend/
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Collab.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── collab.js
+│   │   └── users.js
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   └── CollabRequest.jsx
+│   │   ├── App.jsx
+│   │   └── index.js
+│   ├── .env
+│   ├── package.json
+│   └── tailwind.config.js
+│
+└── README.md
